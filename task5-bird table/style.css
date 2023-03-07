@@ -1,0 +1,29 @@
+tr{text-align: center;
+    }
+    td{padding: 8px;}
+    img{
+        height: 250;
+        width: 250;
+    }
+    .littlecat{color: orange;
+    font-weight: bold;
+text-align: center;
+font-size:xx-large;}
+    .massage{
+        text-align: center;
+        color:#f00f0f ;
+        font-weight: bold;
+    }
+    table{align-items: center;
+    padding: 8px;}
+
+
+body{background-image:url("cat7.jpg");}
+.comment{
+    color:#ff00ff;
+    font-size:large;
+    
+}
+h1{color: yellow; 
+text-align: center;}
+

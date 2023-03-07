@@ -1,0 +1,91 @@
+.main{
+    background-color: white;
+    text-align: center;
+    padding: 15px;
+    margin: auto;
+    width: 800px;
+}
+.btn{
+    width: 30%;
+    box-sizing: border-box;
+    position: relative;
+    padding: 0 15 0 45;
+    text-align: left;
+    line-height: 34px;
+    font-size: 16px;
+   color: white;
+}
+.btn::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 35px;
+    height: 100%;
+    
+}
+
+
+/* facebook */
+
+.facebook{
+    background-color: darkblue;
+    
+}
+.facebook::before{
+    background: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/14082/icon_facebook.png') 8px 6px no-repeat;
+}
+.facebook:hover,
+.facebook:focus{background-color:blue ;}
+
+/* twitter */
+
+.twitter{
+    background-color:aqua;
+    border-color: white;
+    border: 0.2;
+}
+.twitter::before{
+    padding-right:10 ;
+    background: url(/twitter--v1.png) 0px 0.2em no-repeat;
+color: white;
+}
+.twitter:hover,
+.twitter:focus{background-color:darkturquoise ;}
+
+#or{
+    display: inline-block;
+    background-color: gainsboro;
+    border-radius: 50%;
+    width: 40px;
+    height: 30px;
+    text-align: center;
+
+}
+
+input[type=password],input[type=text],select{
+width: 100%;
+padding: 10px 20px;
+margin: 5px 0px;
+border: 3px solid gainsboro;
+    display: inline-block;
+}
+input[type=submit]{
+    width: 100%;
+    background-color: darkblue;
+    color:whitesmoke ;
+    padding: 15px 20px;
+    margin: 5px 0;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 16px;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+li{
+    float: left;
+}
+p{text-transform: capitalize;}
